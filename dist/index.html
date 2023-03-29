@@ -6,12 +6,17 @@
     <title>Wbpack Exercise</title>
 <script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
-    <h1>Hello webpack!</h1>
+  <div class="container flex center-box">
+    <div class="s-container flex-col">
+        <h2 class="list-title">Today's To Do</h2>
+        <form class="form">
+            <input id="task" type="text" placeholder="Add to your list...">
+        </form>
+        <div class="list-content" id="todo-list">
+              
+        </div>
+        <button class="btn cursor" id="clearBtn">Clear All Completed</button>
+    </div>
+  </div>
 </body>
 </html>
