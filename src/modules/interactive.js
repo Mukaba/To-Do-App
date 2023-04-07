@@ -17,7 +17,7 @@ class TaskList {
       this.displayTasks();
       this.taskInput.value = '';
     });
-    this.clearCompletedBtn.addEventListener('click', () => {
+    this.clearCompletedBtn.addEventListener('clic', () => {
       this.tasks = clearCompletedTask(this.tasks);
       this.saveTasks();
       this.displayTasks();
