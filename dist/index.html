@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
-<body>
-  <div class="container flex center-box">
-    <div class="s-container flex-col">
-        <h2 class="list-title">Today's To Do</h2>
-        <form class="form">
-            <input id="task" type="text" placeholder="Add to your list...">
-        </form>
-        <div class="list-content" id="todo-list">
-              
+    <script src="https://kit.fontawesome.com/6e8f4ae605.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+    <script defer src="runtime.js"></script>
+    <script defer src="index.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+<body class="container-all">
+    <h1 class="todo-title">My To-Do List</h1>
+    <form class="main-form" id="task-form">
+      <div class="today-container">
+        <h2 class="daily-task-title">Daily Tasks</h2>
+        <i id="reset" class="fas fa-sync reset-all"></i>
+      </div>
+      <div class="inputBtn">
+        <div class="enter-task">
+          <input class="in-put" type="text" id="task-input" placeholder="ㅤ">
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label class="input-label">Enter a new task</label>
         </div>
-        <button class="btn cursor" id="clearBtn">Clear All Completed</button>
+        <button class="add-task" type="submit">Add Task</button>
+      </div>
+      <ul class="tasks-lists" id="task-list">
+      </ul>    
+    </form>
+    <div class="clear-btn">
+      <button class="clear-all" id="clear-completed" type="button">Clear Completed Tasks</button>
     </div>
-  </div>
 </body>
 </html>

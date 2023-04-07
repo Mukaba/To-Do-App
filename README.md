@@ -79,8 +79,6 @@ Use Git or checkout with SVN using the web URL.
 https: `https://github.com/Mukaba/To-Do-App.git` or 
 ssh: `git@github.com:Mukaba/Webpack.git`
 
--> To run the project, please execute files in the `dis/` folder
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
