@@ -17,7 +17,7 @@ class TaskList {
       this.displayTasks();
       this.taskInput.value = '';
     });
-    this.clearCompletedBtn.addEventListener('clic', () => {
+    this.clearCompletedBtn.addEventListener('click', () => {
       this.tasks = clearCompletedTask(this.tasks);
       this.saveTasks();
       this.displayTasks();
@@ -70,12 +70,11 @@ class TaskList {
       </div>
       <div class="edit-delete-btn">
         <button type="button" class="edit-btn">Edit</button>
-        <button type="button" class='delete-btn'>X</button>
+        <button type="button" class="delete-btn">X</button>
       </div>
     `;
-
       const checkbox = taskElement.querySelector('input[type=checkbox]');
-      checkbox.addEventListener('chang', () => this.toggleTaskStatus(task.id));
+      checkbox.addEventListener('change', () => this.toggleTaskStatus(task.id));
       const editBtn = taskElement.querySelector('.edit-btn');
       editBtn.addEventListener('click', () => {
         const newName = prompt('Enter new task name:', task.name);

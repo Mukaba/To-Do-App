@@ -68,7 +68,7 @@
   padding: 0 0.5rem;
   display: block;
   border: none;
-  border-bottom: 1px solid #515151;
+  border-bottom: 1px solid hsl(0, 0%, 32%);
   background: transparent;
 }
 
@@ -81,7 +81,7 @@
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #6363fe;
+  background-color: hsl(240, 99%, 69%);
   border: none;
   color: white;
   transition: 0.3s ease-out;
@@ -90,7 +90,7 @@
 }
 
 .add-task:hover {
-  background-color: #7474ff;
+  background-color: hsl(240, 100%, 73%);
   transition: 0.3s ease-in;
   box-shadow: 0 0 20px -18px;
 }
@@ -103,16 +103,16 @@
 .clear-all {
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  background-color: #6363fe;
+  background-color: hsl(240, 99%, 69%);
   border: none;
-  color: white;
+  color: #fff;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
 
 .clear-all:hover {
   cursor: pointer;
-  background-color: #ff6464;
+  background-color: hsl(0, 100%, 70%);
   transition: 0.3s ease-out;
   box-shadow: 0 0 20px -18px;
 }
@@ -122,7 +122,7 @@ button:active {
 }
 
 .input-label {
-  color: #999;
+  color: hsl(0, 0%, 60%);
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -138,7 +138,7 @@ button:active {
 .in-put:not(:placeholder-shown) ~ .input-label {
   top: -12px;
   font-size: 14px;
-  color: #5264ae;
+  color: hsl(228, 36%, 50%);
 }
 
 .bar {
@@ -154,7 +154,7 @@ button:active {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #5264ae;
+  background: hsl(228, 36%, 50%);
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -199,7 +199,7 @@ button:active {
 }
 
 .tasks-lists {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-radius: 5px;
   padding: 1rem;
   display: flex;
@@ -244,25 +244,25 @@ button:active {
 }
 
 .edit-btn {
-  background-color: #6363fe;
+  background-color: hsl(240, 99%, 69%);
 }
 
 .edit-btn:hover {
-  background-color: #7474ff;
+  background-color: hsl(240, 100%, 73%);
 }
 
 .edit-btn:active {
-  background-color: #acacd3;
+  background-color: hsl(240, 31%, 75%);
 }
 
 .delete-btn {
-  background-color: #ff6464;
+  background-color: hsl(0, 100%, 70%);
 }
 
 .delete-btn:hover {
-  background-color: #fe8484;
+  background-color: hsl(0, 98%, 76%);
 }
 
 .delete-btn:active {
-  background-color: #e0c4c4;
+  background-color: hsl(0, 31%, 82%);
 }
