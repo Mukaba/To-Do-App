@@ -75,7 +75,7 @@ class TaskList {
     `;
 
       const checkbox = taskElement.querySelector('input[type=checkbox]');
-      checkbox.addEventListener('change', () => this.toggleTaskStatus(task.id));
+      checkbox.addEventListener('chang', () => this.toggleTaskStatus(task.id));
       const editBtn = taskElement.querySelector('.edit-btn');
       editBtn.addEventListener('click', () => {
         const newName = prompt('Enter new task name:', task.name);
