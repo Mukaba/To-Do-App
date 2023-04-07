@@ -65,8 +65,7 @@ LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]:  N/A
-<!-- [https://mukaba.github.io/cinema_showcase/](https://mukaba.github.io/cinema_showcase/) -->
+[https://mukaba.github.io/To-Do-App/dist/](https://mukaba.github.io/To-Do-App/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +76,7 @@ GETTING STARTED
 To get a local copy up and running, follow these steps.
 
 Use Git or checkout with SVN using the web URL.
-https: `https://github.com/Mukaba/Webpack.git` or 
+https: `https://github.com/Mukaba/To-Do-App.git` or 
 ssh: `git@github.com:Mukaba/Webpack.git`
 
 -> To run the project, please execute files in the `dis/` folder
@@ -111,7 +110,7 @@ ssh: `git@github.com:Mukaba/Webpack.git`
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mukaba/Webpack/issues).
+Feel free to check the [issues page](https://github.com/Mukaba/To-Do-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
