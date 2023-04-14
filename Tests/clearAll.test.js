@@ -48,7 +48,6 @@ describe('toggleTaskStatus', () => {
 describe('editTask', () => {
   const mokSavTask = jest.fn();
   const mokDispTask = jest.fn();
-
   test('update the task name against its ID', () => {
     const taskId = 2;
     const newNam = 'New Name';
