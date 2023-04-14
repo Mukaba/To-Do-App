@@ -46,8 +46,10 @@ Built useing webpack, pure css and Javascript.
 
 - **[set up Webpack]**
 - **[setting up HtmlWebpackPlugin]**
-- **[setting up loading-CSS]**
 - **[Setting up webpack-dev-server]**
+- **[Add and remove tasks]**
+- **[Setting up webpack-dev-server]**
+- **[Jest]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,6 +94,13 @@ ssh: `git@github.com:Mukaba/Webpack.git`
 - Twitter: [@JeanlouisMukaba](https://twitter.com/JeanlouisMukaba)
 - LinkedIn: [Kitenge Mukaba Jean-louis](https://www.linkedin.com/in/kitenge-mukaba-jean-louis-71a2441bb/)
 
+
+👤 Javed-Shahbaz
+
+- GitHub: [@Javed-Shahbaz](https://github.com/Javed-Shahbaz)
+- Twitter: [@Javed-Shahbaz](https://twitter.com/javedshahbaz007)
+- LinkedIn: [@Javed-Shahbaz](https://www.linkedin.com/in/javed-shahbaz)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -99,6 +108,7 @@ ssh: `git@github.com:Mukaba/Webpack.git`
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Webpack]**
+- [ ] **[jest framework]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
