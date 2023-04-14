@@ -8,5 +8,4 @@ describe('addTask', () => {
     const result = addTask(taskInput, tasks);
     expect(result).toEqual([new Task('Books for children', false, 1)]);
   });
-
 });
