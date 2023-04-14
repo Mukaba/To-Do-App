@@ -37,7 +37,6 @@ describe('toggleTaskStatus', () => {
       { id: 3, name: 'Task 3', status: false },
     ]);
   });
-
   test('return a new array of updated task/s', () => {
     const res = toggleTaskStatus(2, tasks);
     expect(res).not.toBe(tasks);
