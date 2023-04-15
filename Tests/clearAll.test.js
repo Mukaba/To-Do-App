@@ -24,7 +24,7 @@ describe('clearCompletedTask', () => {
   });
 });
 describe('toggleTaskStatus', () => {
-  test('if id not found, it will return the same array', () => {
+  test('if there is not ID, then return the same array', () => {
     const res = toggleTaskStatus(4, tasks);
     expect(res).toEqual(tasks);
   });
