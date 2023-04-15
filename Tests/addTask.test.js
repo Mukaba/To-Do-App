@@ -6,7 +6,7 @@ describe('addTask', () => {
     const tasks = [];
     const taskInput = { value: 'Books for children' };
     const ad = addTask(taskInput, tasks);
-    expect(ad).toEqual([new Task('Books for children', false, 1)]);
+    expect(ad).toEqual([new Task('Children's books', false, 1)]);
   });
   it('add a new task for non-empty array', () => {
     const tasks = [new Task('Books for children', false, 1)];
