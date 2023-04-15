@@ -10,7 +10,7 @@ describe('removeTask', () => {
     ]);
   });
 
-  test('not remove any task for missing id', () => {
+  test('for missing ID don't remove any task', () => {
     const updateList = removeTask(5, tasks);
     expect(updateList).toEqual([
       { id: 1, name: 'Task 1', status: false },
