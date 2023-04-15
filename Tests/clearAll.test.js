@@ -54,7 +54,7 @@ describe('editTask', () => {
     expect(tasks[1].name).toBe(newNam);
   });
 
-  test('if ID does't exist then don't update tasks', () => {
+  test('if ID does not exist then do not update tasks', () => {
     const taskId = 4;
     const newNam = 'New Name';
     editTask(taskId, newNam, tasks, mokSavTask, mokDispTask);
