@@ -5,7 +5,7 @@ describe('clearCompletedTask', () => {
   test('return an empty array', () => {
     const cls = clearCompletedTask([]);
     expect(cls).toEqual([]); 
-  });
+});
   test('if no completed tasks exists it will return the same array', () => {
     const noComptasks = [
       { id: 1, name: 'Task 1', status: false },
