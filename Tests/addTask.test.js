@@ -2,7 +2,7 @@ import Task from '../src/modules/task.js';
 import addTask from '../src/modules/addTask.js';
 
 describe('addTask', () => {
-  it('add a new task in list', () => {
+  it('add to the task list', () => {
     const tasks = [];
     const taskInput = { value: 'Books for children' };
     const ad = addTask(taskInput, tasks);
