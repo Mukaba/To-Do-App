@@ -262,7 +262,3 @@ button:active {
 .delete-btn:hover {
   background-color: hsl(0, 98%, 76%);
 }
-
-.delete-btn:active {
-  background-color: hsl(0, 31%, 82%);
-}
